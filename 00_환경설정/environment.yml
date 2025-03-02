@@ -1,0 +1,28 @@
+name: bibiml
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+
+  # 머신러닝 라이브러리
+  - numpy=1.23.5
+  - pandas=1.5.3
+  - scikit-learn=1.2.2
+  - networkx=3.0
+  - scipy=1.10.1
+  - statsmodels=0.13.5
+
+  # 시각화 관련 라이브러리
+  - matplotlib=3.7.1
+  - seaborn=0.12.2
+  - plotly=5.14.1
+  - dash=2.9.3
+
+  # 유틸
+  - jupyterlab
+  - notebook
+  - ipykernel
+  - nb_conda_kernels
+  - tqdm
