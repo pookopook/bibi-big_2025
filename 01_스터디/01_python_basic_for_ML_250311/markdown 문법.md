@@ -28,10 +28,6 @@
 |------|------|
 | `---` 또는 `***` 또는 `___` | 아래에 수평선이 생깁니다. |
 
-**예시:**
-```markdown
-```
-
 ---
 ## 4. 목록 (List)
 ### ● 순서 없는 목록 (Unordered List)
@@ -46,8 +42,9 @@
 |------|------|
 | `1. 첫 번째 항목` | 1. 첫 번째 항목 |
 | `2. 두 번째 항목` | 2. 두 번째 항목 |
-ㅁ※
-**예시:**
+
+
+※ **예시:**
 ```markdown
 - 리스트 1
   - 하위 리스트 1
@@ -67,9 +64,9 @@
 
 | 문법 | 결과 |
 |------|------|
-| `![설명](이미지URL)` | ![설명](https://via.placeholder.com/150) |
+| `![설명](이미지URL)` | [![파이썬 로고](https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg)](https://www.python.org/) |
 
-※ 이미지 복붙도 가능하기는 함...
+※ 이미지 복붙도 가능하기는 함
 
 ## 7. 코드 블록 (Code Block)
 
@@ -81,8 +78,8 @@
 **예시:**
 ```markdown
 이 문장 속에 `print("Hello World")` 같은 코드를 포함할 수 있습니다.
-
 ```
+
 ```python
 print("Hello World")
 x = 5
@@ -212,7 +209,7 @@ $$
 
 
 
-### **5. 수식 정렬 **
+### **5. 수식 정렬**
 | 표현 방식 | 예제 코드 | 출력 |
 |-----------|----------|------|
 | **기본 정렬** | ``` $$ \begin{cases} a + b &= c \\ x - y &= z \end{cases} $$ ``` | $ \begin{cases} a + b &= c \\ x - y &= z \end{cases} $ |
@@ -232,8 +229,3 @@ $$
 | `\qquad` | 매우 매우 큰 공백 | `$a \qquad b$` | $ a \qquad b $ |
 | `\hspace{크기}` | 특정 크기 공백 | `$a \hspace{1cm} b$` | $ a \hspace{1cm} b $ |
 | `\phantom{문자}` | 해당 문자만큼 공백 | `$a \phantom{xxxxx} b$` | $ a \phantom{xxxxx} b $ |
-
-
-
-### **사용 방법**
-- 주피터 노트북의 **Markdown 셀**에 그대로 붙여넣으면 LaTeX 형식의 수식이 렌더링됩니다.
